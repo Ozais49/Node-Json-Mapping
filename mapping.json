@@ -1,0 +1,20 @@
+{
+        "Id": "$.id",
+        "name": "$.name",
+        "address": "$.address",
+        "email": "$.email",
+        "identity": {
+            "uniqueIdNumber": "$.identity.idnumber",
+            "type": "$.identity.type",
+            "photo": "$.identity.idimage"
+        },
+        "workplaces":[
+            {
+                "officename":"$.involvedoffices[*].name",
+                "position":"$.involvedoffices[*].designation",
+                "isActive":"$.involvedoffices[*].isPresentoffice"
+            }
+        ]
+}
+
+  

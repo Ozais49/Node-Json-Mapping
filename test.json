@@ -1,0 +1,38 @@
+[
+    {
+
+        "id":1,
+        "name":"Yugesh",
+        "address":"Kumarigal-7,Kathmandu",
+        "email":"yugesh.gyawali@javra.com",
+        "identity":{
+            "idnumber":124,
+            "type":"citizenship",
+            "idimage":"image.png"
+        },
+        "involvedoffices":[
+                {
+                    "name":"mercantile office systems",
+                    "designation":"software developer",
+                    "isPresentoffice":false
+                },{
+                    "name":"javra software",
+                    "designation":"software developer",
+                    "isPresentoffice":true
+                }
+        ]
+
+    },{
+        "id":2,
+        "name":"Gyawali",
+        "address":"Kumarigal-7,Kageshowari",
+        "email":"yugesh.gyawali@javra123.com",
+        "identity":{
+            "idnumber":12114,
+            "type":"pancard",
+            "idimage":"image2.png"
+        }
+    }
+
+
+]
